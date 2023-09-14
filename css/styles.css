@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
+  color: #434455;
 }
 a {
   text-decoration: none;
@@ -13,29 +14,37 @@ li {
 
 /*header*/
 .header {
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
 .header-logo {
   font-family: 'Raleway', sans-serif;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.header-logo span {
-  color: var(--IRIS, #4d5ae5);
+.header-logo-color {
+  color: #2e2f42;
 }
 
 .header-menu-link {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
 }
 
 .header-soc-link {
@@ -45,13 +54,18 @@ li {
   letter-spacing: 0.02em;
 }
 
+.header-soc-link:hover,
+.header-soc-link:focus {
+  color: #404bbf;
+}
+
 /*section-solutions*/
 .solutions {
-  background: var(--NAVY-BLUE, #2e2f42);
+  background-color: #2e2f42;
 }
 
 .solutions-title {
-  color: var(--WHITE, #fff);
+  color: #fff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -60,15 +74,18 @@ li {
 }
 
 .solutions-button {
-  border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
   cursor: pointer;
-  color: var(--WHITE, #fff);
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+
+.solutions-button:hover,
+.solutions-button:focus {
+  background-color: #404bbf;
 }
 
 /*section-strategy*/
@@ -210,17 +227,17 @@ li {
 }
 
 .footer-logo {
-  color: var(--CLOUD, #f4f4fd);
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.footer-logo span {
-  color: var(--IRIS, #4d5ae5);
+.footer-logo-color {
+  color: #f4f4fd;
 }
 
 .footer-text {
