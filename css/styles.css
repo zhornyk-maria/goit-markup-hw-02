@@ -153,11 +153,7 @@ li {
 }
 
 .team-item {
-  border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-photo {
@@ -198,8 +194,7 @@ li {
 }
 
 .portfolio-item {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
+  background-color: var(--WHITE, #fff);
 }
 
 .portfolio-item-img {
