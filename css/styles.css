@@ -65,6 +65,7 @@ li {
 }
 
 .solutions-title {
+  text-align: center;
   color: #fff;
   font-size: 56px;
   font-weight: 700;
@@ -91,20 +92,7 @@ li {
 
 .strategy {
 }
-/*
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-*/
+
 .strategy-list {
 }
 
@@ -139,6 +127,7 @@ li {
 }
 
 .team-title {
+  text-align: center;
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
@@ -177,6 +166,7 @@ li {
 .portfolio {
 }
 .portfolio-title {
+  text-align: center;
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
